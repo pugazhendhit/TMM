@@ -1,0 +1,190 @@
+
+
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="#772432"
+     android:orientation="vertical"
+     android:paddingTop="30dp"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp"
+     android:paddingBottom="10dp">
+
+     
+     
+<ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">    
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="400dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="15dp"
+         android:background="@drawable/linearlayoutcurve"
+         android:orientation="vertical"
+         android:padding="10dp" >
+
+         <TextView
+             android:id="@+id/Login"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:gravity="center_horizontal"
+            android:layout_gravity="center"
+             android:text="MEMBER DETAILS"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#772432"
+             android:textSize="20dp" />
+
+         
+
+         <TextView
+             android:id="@+id/LINE"
+             android:layout_width="wrap_content"
+             android:layout_height="5dp"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/textView2"
+             android:drawableBottom="@drawable/line"
+             android:textColor="#FF0000" />
+    <TextView
+               android:id="@+id/textView4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/textView2"
+              
+               android:textColor="#772432" />
+         
+         <EditText
+             android:id="@+id/membername"
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/textView4"
+             android:layout_marginTop="10dp"
+             android:background="@drawable/shape"
+             android:ellipsize="end"
+              android:drawableLeft="@drawable/id"
+             android:ems="10"
+             android:gravity="center"
+             android:editable="false"
+             android:textColor="#772432"
+             android:hint="  Name   "
+             android:inputType="textEmailAddress"
+             android:paddingLeft="8dp"
+              android:paddingRight="45dp" />
+
+         <EditText
+             android:id="@+id/jobposition"
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+                 android:textColor="#772432"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/editText1"
+             android:layout_marginTop="10dp"
+             android:background="@drawable/shape"
+             android:ellipsize="end"
+              android:drawableLeft="@drawable/job"
+             android:ems="10"
+             android:gravity="center"
+             android:enabled="false"
+             android:hint=" Job Position"
+             android:paddingLeft="8dp"
+             android:paddingRight="45dp" />
+         
+           <EditText
+             android:id="@+id/clientid"
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+                 android:textColor="#772432"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/editText1"
+             android:layout_marginTop="10dp"
+             android:background="@drawable/shape"
+             android:ellipsize="end"
+              android:drawableLeft="@drawable/id"
+             android:ems="10"
+             android:gravity="center"
+             android:hint=" Client Id"
+             android:enabled="false"
+             android:paddingLeft="8dp"
+             android:paddingRight="45dp" />
+             <EditText
+             android:id="@+id/email"
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+                 android:textColor="#772432"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/editText1"
+             android:layout_marginTop="10dp"
+             android:background="@drawable/shape"
+             android:ellipsize="end"
+              android:drawableLeft="@drawable/mail"
+             android:ems="10"
+             android:gravity="center"
+             android:enabled="false"
+             android:hint=" Email"
+             android:paddingLeft="8dp"
+             android:paddingRight="45dp" />
+               <EditText
+             android:id="@+id/contact"
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+                 android:textColor="#772432"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/editText1"
+             android:layout_marginTop="10dp"
+             android:background="@drawable/shape"
+             android:ellipsize="end"
+              android:drawableLeft="@drawable/contact"
+             android:ems="10"
+             android:gravity="center"
+             android:hint=" Contact"
+             android:enabled="false"
+             android:paddingLeft="8dp"
+             android:paddingRight="45dp" />
+
+                 <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dp"
+             android:orientation="horizontal"
+               android:layout_gravity="center"
+             android:layout_marginBottom="30dp" >
+
+                     <Button
+                         android:id="@+id/add"
+                         android:layout_width="120dp"
+                         android:layout_height="40dp"
+                  android:layout_marginLeft="20dp"
+                         android:background="#004165"
+                         android:onClick="Login_Click"
+                         android:text="ADD"
+                         android:textColor="#FFFFFF"
+                         android:textSize="18sp" />
+
+   <Button
+             android:id="@+id/cancel"
+               android:layout_width="120dp"
+             android:layout_height="40dp"
+   android:layout_marginLeft="4dp"
+            
+             android:background="#004165"
+             android:onClick="Login_Click"
+             android:text="CANCEL"
+             android:textColor="#FFFFFF"
+             android:textSize="18sp" />
+         
+       
+
+          
+         </LinearLayout>
+     </LinearLayout>
+       </ScrollView>
+ </LinearLayout>
+    
+
+   

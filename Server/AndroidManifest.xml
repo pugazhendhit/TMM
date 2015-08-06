@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.slidingmenuserver"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_big"
+        android:label="SMMServer"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Add_Enroll"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Login_Success"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Login"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MeetingName"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Review"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.SignUpp"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Submit"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Summary_Table"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Tab"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Vie"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.View11"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Loading_Activity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+                  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+                    </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.NextSignup"
+            android:label="@string/title_activity_next_signup" >
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Datetimepicker" >
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.View_SlotFragment" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.C"
+            android:label="@string/title_activity_c" >
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Nextcreatemeating"
+            android:label="@string/title_activity_nextcreatemeating" >
+           
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.Secondnextcreatemeating"
+            android:label="@string/title_activity_secondnextcreatemeating" >    
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Create_MeetingFragment">
+        
+            
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Enroll_MemberFragment">
+          
+       
+        </activity>
+      
+        <activity android:name="info.androidhive.slidingmenu.Viewrequest">
+              
+            
+        </activity>
+    </application>
+
+</manifest>

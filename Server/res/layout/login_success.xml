@@ -1,0 +1,86 @@
+
+ <ScrollView 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="#772432"
+     >
+
+ <LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="#772432"
+     android:orientation="vertical"
+     android:paddingBottom="10dp"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp"
+     android:paddingTop="30dp" >
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="350dp"
+         android:layout_marginBottom="40dp"
+         android:layout_marginTop="15dp"
+       
+         android:background="@drawable/linearlayoutcurve"
+         android:orientation="vertical"
+         android:padding="10dp" >
+
+         <TextView
+             android:id="@+id/Login"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginTop="5dp"
+             android:gravity="center_horizontal"
+             android:paddingLeft="12dp"
+             android:text="CLUB NAME"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#772432"
+             android:textSize="30sp" />
+
+         <TextView
+             android:id="@+id/LINE"
+             android:layout_width="wrap_content"
+             android:layout_height="4dp"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/textView2"
+             android:drawableBottom="@drawable/line"
+             android:textColor="#FF0000" />
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:orientation="horizontal"
+             android:paddingTop="20dp" >
+
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:background="#004165"
+                 android:orientation="vertical"
+                >
+
+                 <ListView
+                     android:id="@+id/mainListView"
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_gravity="center"
+                     android:divider="#FFFFFF"
+                     android:dividerHeight="1px" >
+                 </ListView>
+    
+             </LinearLayout>
+         </LinearLayout>
+     </LinearLayout>
+ </LinearLayout>
+
+    </ScrollView>
+  
+ 
