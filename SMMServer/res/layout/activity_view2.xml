@@ -1,0 +1,374 @@
+
+
+   
+ <LinearLayout
+     
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  
+     android:layout_width="fill_parent"
+     android:layout_height="match_parent"
+     android:background="#004165"
+     android:orientation="vertical"
+     android:paddingBottom="10dp"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp" >
+
+     <LinearLayout
+      
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+        android:background="#FFFFFF"
+ android:paddingRight="10dp"
+     android:paddingLeft="10dp"
+     android:paddingBottom="10dp"
+       
+       
+       >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_gravity="center"
+    
+        android:background="#772432"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Summary"
+        android:textColor="#FFFFFF" />
+    
+    <TableLayout
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+      
+        tools:context=".MainActivity" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+         >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#772432"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text=" Name"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+       android:background="#772432"
+          android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="Duration" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+             android:textColor="#772432"
+                
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/shape"
+                android:text="Manish"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:textColor="#772432"
+                 android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10 minutes"
+                android:textSize="20sp" />
+        </TableRow>
+
+        
+        <TableRow
+            android:layout_width="wrap_content"
+            
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:textColor="#772432"
+                android:layout_weight="1"
+                android:gravity="center"
+            android:background="@drawable/shape"
+                android:text="Harmony"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                    android:textColor="#772432"
+                android:gravity="center"
+                android:text="5 minutes"
+                android:textSize="20sp" />
+        </TableRow>
+     
+        
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"  >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:textColor="#772432"
+               android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Aana"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                    android:textColor="#772432"
+                android:text="10 minutes"
+                android:textSize="20sp" />
+        </TableRow>
+       
+        
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"  >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+     android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Gautam"
+                    android:textColor="#772432"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+         android:background="@drawable/shape"
+                android:layout_weight="1"
+                    android:textColor="#772432"
+                android:gravity="center"
+                android:text="11 minutes"
+                android:textSize="20sp" />
+        </TableRow>
+     
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+          android:background="@drawable/shape"
+                android:layout_weight="1"
+                    android:textColor="#772432"
+                android:gravity="center"
+                android:text="Harpreet"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+          android:background="@drawable/shape"
+                android:layout_weight="1"
+                    android:textColor="#772432"
+                android:gravity="center"
+                android:text="15 minutes"
+                android:textSize="20sp" />
+        </TableRow>
+      
+        
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"  >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Honey"
+                    android:textColor="#772432"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                    android:textColor="#772432"
+                android:gravity="center"
+                android:text="8 minutes"
+                android:textSize="20sp" />
+        </TableRow>
+     
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"  >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                    android:textColor="#772432"
+                android:text="Vishal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5 minutes"
+                    android:textColor="#772432"
+                android:textSize="20sp" />
+        </TableRow>
+       
+         <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"  >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                    android:textColor="#772432"
+                android:text="Kamal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2 minutes"
+                    android:textColor="#772432"
+                android:textSize="20sp" />
+        </TableRow>
+      
+         <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"  >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                    android:textColor="#772432"
+                android:text="Komal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10 minutes"
+                    android:textColor="#772432"
+                android:textSize="20sp" />
+        </TableRow>
+    
+         
+         <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"  >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:textColor="#772432"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Marry"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:background="@drawable/shape"
+                android:layout_weight="1"
+                    android:textColor="#772432"
+                android:gravity="center"
+                android:text="10 minutes"
+                android:textSize="20sp" />
+        </TableRow>
+       
+         
+         <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"  >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+             android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Nitin"
+                    android:textColor="#772432"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:background="@drawable/shape"
+                android:layout_weight="1"
+                    android:textColor="#772432"
+                android:gravity="center"
+                android:text="17 minutes"
+                android:textSize="20sp" />
+        </TableRow>
+
+    </TableLayout>
+    
+
+   
+</LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,66 @@
+
+<LinearLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#772432"
+     >
+
+    <ImageView
+        android:id="@+id/setLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_big" 
+      android:layout_marginTop="40dp"
+      	android:layout_gravity="center_horizontal"
+      
+      	/>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.65"
+        android:text="Loading..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+         	android:gravity="center" />
+    
+    <TextView
+        android:id="@+id/rights1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F2DF74"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="All Rights Reserved @"
+		android:layout_gravity="center_horizontal"
+		
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+        android:id="@+id/rights2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F2DF74"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:text="SMART MEETING MANAGER"
+		android:layout_gravity="center_horizontal"
+	
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+</LinearLayout>

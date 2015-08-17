@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <com.entropy.slidingmenu2.layout.MainLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    >
+     <!-- This holds our menu  Slider Menu -->
+ <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+          android:background="#000000"
+       
+        >
+
+        <ListView
+            android:id="@+id/Pro_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="170dip"
+            android:background="#FFFFFF" >
+        </ListView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="120dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="41dp"
+            android:background="#000000" >
+
+             <TextView
+                android:id="@+id/pro_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="16dp"
+                
+                android:layout_toRightOf="@+id/profile_img"
+                android:layout_marginLeft="10dip"
+                android:text="Person  name"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/uni_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pro_name"
+                android:layout_toRightOf="@+id/profile_img"
+                android:layout_marginLeft="10dip"
+                android:text="Institution"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/city_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/profile_img"
+                android:layout_below="@+id/uni_name"
+                android:text="City"
+                android:layout_marginLeft="10dip"
+                android:textColor="#FFFFFF" />
+
+
+            <ImageView
+                android:id="@+id/profile_img"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/pro_name"
+                android:layout_marginLeft="10dp"
+                android:background="#FFFFFF" />
+
+        </RelativeLayout>
+       
+    </RelativeLayout>
+    
+     
+          
+       
+        
+        <!-- This is where fragment will show up -->
+     
+        
+    
+
+</com.entropy.slidingmenu2.layout.MainLayout>

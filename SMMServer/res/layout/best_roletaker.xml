@@ -1,0 +1,105 @@
+
+ <ScrollView 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="#772432"
+     >
+
+ <LinearLayout
+      android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="#772432"
+     android:orientation="vertical"
+     android:paddingTop="30dp"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp"
+     android:paddingBottom="10dp">
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="400dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="15dp"
+         android:background="@drawable/linearlayoutcurve"
+         android:orientation="vertical"
+         android:padding="10dp" >
+
+
+       <TextView
+           android:id="@+id/Login"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:gravity="center_horizontal"
+           android:paddingLeft="12dp"
+           android:text="BEST ROLETAKER"
+           android:textColor="#772432"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textSize="30sp" 
+           android:layout_gravity="center"/>
+      
+       
+
+    
+
+       <TextView
+           android:id="@+id/LINE"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textView2"
+           android:drawableBottom="@drawable/line"
+           android:textColor="#FF0000" />
+
+       
+        <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+          android:orientation="horizontal"
+         android:padding="10dp"
+          >
+       
+
+        <TextView
+           android:id="@+id/namestatic"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+            android:textColor="#FF0000"
+            android:text="Name"
+            android:layout_weight="1"
+            android:textSize="20dp" />
+        
+        <TextView
+           android:id="@+id/detailstatic"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:textColor="#FF0000" 
+            android:text="Points"
+            android:layout_weight="1"
+             android:textSize="20dp"
+             android:gravity="center"/>
+</LinearLayout>
+
+       
+<ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+      </LinearLayout>
+      
+
+   </LinearLayout>
+    </ScrollView>
+    
+    
+  
+ 
