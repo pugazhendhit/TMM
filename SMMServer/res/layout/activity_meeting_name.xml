@@ -1,0 +1,96 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  
+    
+   android:id="@+id/b"
+    android:background="#004165"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+ android:padding="10dp"
+     >
+   
+ 
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+        android:background="#FFFFFF"
+android:padding="10dp"
+       
+       >
+    
+       
+        <EditText
+            android:id="@+id/meeting"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape"
+            android:ellipsize="end"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="  Meeting Name   "
+            android:inputType="textEmailAddress"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" />
+
+    <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+         <EditText
+           android:id="@+id/time"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/editText1"
+           android:layout_marginTop="40dp"
+           android:background="@drawable/shape"
+           
+            android:ellipsize="end"
+   	android:gravity="center"
+   	android:paddingLeft="8dp"
+   	android:paddingRight="8dp"
+           android:ems="10"
+           android:hint=" Time and Date"
+          android:layout_weight="1"
+          />
+
+         <CalendarView
+             android:layout_width="134dp"
+             android:layout_height="50dp"
+             android:layout_marginLeft="4dp"
+             android:layout_marginTop="40dp"
+             android:selectedWeekBackgroundColor="#FFFFFF"
+             android:showWeekNumber="false" />
+
+</LinearLayout>
+
+       <Button
+           android:id="@+id/create"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_marginTop="50dp"
+        
+           android:background="#004165"
+           android:text="Update"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="#FFFFFF"
+           android:textStyle="bold" />
+      
+    </LinearLayout>
+    
+  <!-- Iner layout STOP -->        
+           
+           
+           
+           
+           
+           
+
+<!-- </ScrollView> -->
+ </RelativeLayout>  
